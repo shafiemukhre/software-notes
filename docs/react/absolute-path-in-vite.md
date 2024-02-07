@@ -1,6 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 20
 ---
+
+# Absolute path in Vite
 
 Add this to `vite.config.ts`. This allow you to use absolute path such as `import DataViewer from "@components/DataViewer/DataViewer";`.
 
