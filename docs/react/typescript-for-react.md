@@ -257,7 +257,57 @@ function Button({ style }: ButtonProps) {
 
 ## React Hooks with Typescript
 
-to learn
+## Events
+
+```ts
+import { ChangeEvent, useState } from "react";
+
+function App() {
+  const [text, setText] = useState("");
+
+  const handleTextChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setText(event.target.value);
+  };
+
+  return (
+    <form>
+      <input onChange={handleTextChange} value={text} />
+      <button>Submit</button>
+    </form>
+  );
+}
+export default App;
+```
+
+### React.JSX.Element
+
+Use `React.JSX.Element` instead of `JSX.Element` (because the global namespace has been deprecated) or `React.ReactElement` (because it's more semanticly accurate to refer to the children as JSX.Element instead of ReactElement, all React.Element will transpile into a JSX element).
+
+### using "as" to typecast the type
+
+```ts
+interface Post {
+  id: number;
+  title: string;
+}
+export default function Demo () {
+  const [posts, setPosts] = useState<Post[]>([]);
+
+  useEffect(() => {
+    const fetchPosts = async () => {
+      const response = await fetch(`${BASE_URL}/posts`);
+      // const posts = await response.json() as Post[]; // TS will infer the type for posts as any
+      const posts = (await response.json()) as Post[]; // for readibility, we told TS the type because we are confident
+      setPosts(posts);
+    };
+
+    fetchPosts();
+  }, [])
+
+  return (...)
+}
+
+```
 
 ## Tips
 
