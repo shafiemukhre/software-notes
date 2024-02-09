@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "Shafie's Software Development Notes",
   tagline:
-    "Collections of notes to build great software. Towards understanding, memorizing, and mastery.",
+    "Collections of notes to build great software. Towards understanding and mastery.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
