@@ -9,6 +9,7 @@ Good Youtube Channels
 - [@joshtriedcoding](https://www.youtube.com/@joshtriedcoding)
 - [@ByteGrad](https://www.youtube.com/@ByteGrad)
 - [@cosdensolutions](https://www.youtube.com/@cosdensolutions)
+- [@elliottchong](https://www.youtube.com/@elliottchong)
 
 Techstacks
 
