@@ -255,6 +255,8 @@ function Button({ style }: ButtonProps) {
 
 ### Interface vs Type
 
+- Use both `type` and `interface`. Use `type` when the types are mostly primitive types or there's no need to extend it later. Use `interface` when the types are mostly custom types and you do plan (or might) extend it in the future.
+
 ## React Hooks with Typescript
 
 ## Events
@@ -285,6 +287,8 @@ Use `React.JSX.Element` instead of `JSX.Element` (because the global namespace h
 
 ### using "as" to typecast the type
 
+- Use `as` when you are more confident than Typescript and you know for sure what the type should be.
+
 ```ts
 interface Post {
   id: number;
@@ -311,4 +315,4 @@ export default function Demo () {
 
 ## Tips
 
-- use `ctrl` + `space` to activate intellissence so that you can know what are the props that the component is expecting
+- Use `ctrl` + `space` to activate intellissence so that you can know what are the props that the component is expecting

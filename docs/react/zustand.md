@@ -1,6 +1,6 @@
 # Zustand
 
-- In the component, you don't have to call the state itself from the store. Instead create a get setter for the state. For example
+- In the component, you don't necessarily have to call the whole state, you can create a smaller get function to get the latest state. For example:
 
 ```tsx
 // const spreadsheetData = useSpreadsheetStore((state) => state.spreadsheetData); // no need to do this
