@@ -1,3 +1,7 @@
+---
+sidebar_position: 50
+---
+
 # Add Json into existing SQL table
 
 For example, you already have a customers table in your SQL database. And now you want to add arbitrary key-value pairs into the table. How would you do it?
@@ -74,7 +78,7 @@ You can also update a specific key, you don't have to make sure the request body
 }
 ```
 
-You can use the same API use `null` value to indicate that user want to delete the metadata value.
+You can use the same API and use `null` value to indicate that user want to delete the metadata.
 
 ```js
 {

@@ -1,3 +1,7 @@
+---
+sidebar_position: 40
+---
+
 # PATCH vs POST and PUT
 
 Quick summary highlighting the differences between `PATCH`, `POST`, and `PUT`:

@@ -1,3 +1,7 @@
+---
+sidebar_position: 30
+---
+
 # Database Migration
 
 ## When do we need to do database migration?
