@@ -19,7 +19,7 @@ CREATE TABLE Customers (
 );
 ```
 
-## Database modelling
+## Database modeling
 
 You can `ALTER` the table to add a new column of metadata with `JSONB` as the type and default value `NULL`. (SQL example for PostgreSQL)
 

@@ -7,3 +7,7 @@
 ## Database modelling
 
 - [✔] ~~Assume you have an existing databases. Can you add a json object into a column of your SQL database to store arbitrary key-value pairs? How the database looks like? Write an API endpoint to fetch all regions from the subscriptions table.~~
+
+## System Design
+
+- [] design in-memory KV store
