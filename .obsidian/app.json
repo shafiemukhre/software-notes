@@ -1,0 +1,11 @@
+{
+  "userIgnoreFilters": [
+    "static/",
+    "src/",
+    "node_modules/@docusaurus/",
+    "node_modules/@mdx-js/",
+    "node_modules/@types/"
+  ],
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute"
+}

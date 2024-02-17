@@ -1,0 +1,15 @@
+/* Hide folders and it's contents from the Files Tab */
+div[data-path*="node_modules"],
+div[data-path*="node_modules"] + div.nav-folder-children {
+  display: none;
+}
+
+div[data-path*="src"],
+div[data-path*="src"] + div.nav-folder-children {
+  display: none;
+}
+
+div[data-path*="static"],
+div[data-path*="static"] + div.nav-folder-children {
+  display: none;
+}
