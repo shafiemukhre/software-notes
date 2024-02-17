@@ -16,6 +16,3 @@ Will try to add good resources that I just found or good resources that I have u
 
 ## Deploy to production
 - [flightcontrol.dev](https://www.flightcontrol.dev) - seems like a good option if I need to deploy a server to AWS with better DX
-
-[rate-limiter](docs/system-design-problems/rate-limiter.md)
-[zustand](docs/react/zustand.md)
