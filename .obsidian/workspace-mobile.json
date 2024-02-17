@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "c355f42fb425c30d",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f4a6e7d2f1f3193",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbb74679c75b4b1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "trying stuff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47e72480ceaee289",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "9407a42c25ab0646",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "trying stuff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d664afadc06b6f43",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "29cdaeafd5b2211a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "a2c0882583ed2c96",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "bbe0787f23199850",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "f0b440cac80ee1ef",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "f25a178b1d2835bb",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "44ad22c0c6373211",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "trying stuff.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "7c82d219de8117c4",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "trying stuff.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "b2ee6a1733c77426",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "trying stuff.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "bbb74679c75b4b1b",
+  "lastOpenFiles": [
+    "docs/system-design/cap-theorem.md",
+    "docs/system-design/add-json-into-sql-database.md",
+    "docs/system-design-problems/rate-limiter.md",
+    "docs/Home.md",
+    "docs/resources.md",
+    "blog/Obsidian + Docusaurus.md",
+    "blog/late night thoughts.md",
+    "blog/2024-02-06.md",
+    "trying stuff.md",
+    "Untitled.md",
+    "docs/react/img/image2.png",
+    "docs/styling/scss.md",
+    "README.md",
+    "2024-02-17.md",
+    "to-learn-masterlist.md",
+    "Untitled",
+    "babel.config.js",
+    "src/css",
+    "src",
+    "docusaurus.config.ts",
+    "tsconfig.json",
+    "src/css/custom.css",
+    "static/img/logo.svg",
+    "static/img/undraw_docusaurus_tree.svg",
+    "static/img/docusaurus.png",
+    "static/img/undraw_docusaurus_react.svg",
+    "static/img/undraw_docusaurus_mountain.svg",
+    "static/img",
+    "static",
+    "src/components/HomepageFeatures/styles.module.css",
+    "docs/react/handle-click-outside-of-element.md",
+    "docs/react/data-fetching-with-useeffect.md",
+    "docs/Tips.md",
+    "docs/react/zustand.md",
+    "docs/react/absolute-path-in-vite.md",
+    "docs/system-design/patch-post-put.md",
+    "docs/system-design/notecard.md",
+    "docs/system-design/sql-vs-nosql.md",
+    "docs/system-design/database-migration.md",
+    "static/img/docusaurus-social-card.jpg",
+    "docs/react/img/image.png",
+    "src/pages/markdown-page.md",
+    "docs/react/typescript-for-react.md"
+  ]
+}
