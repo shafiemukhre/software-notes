@@ -8,3 +8,4 @@
 ## Taking Notes
 
 - Using WYSIWG Markdown editor within vs code is quite a nice experience. I'm currently using VSCode Office Viewer(Markdown Editor) by Weijan Chen.
+

@@ -9,7 +9,23 @@ div[data-path*="src"] + div.nav-folder-children {
   display: none;
 }
 
-div[data-path*="static"],
+/* div[data-path*="static"],
 div[data-path*="static"] + div.nav-folder-children {
   display: none;
+} */
+
+.HyperMD-codeblock.HyperMD-codeblock-bg.cm-line {
+  overflow-x: auto;
+  word-wrap: normal;
+  white-space: nowrap;
+}
+
+/* Hide scroll */
+.HyperMD-codeblock.HyperMD-codeblock-bg.cm-line::-webkit-scrollbar {
+  display: none;
+}
+
+/* First line with the code block type */
+.HyperMD-codeblock.HyperMD-codeblock-begin.HyperMD-codeblock-begin-bg.HyperMD-codeblock-bg.cm-line {
+  padding-bottom: 0.6rem;
 }

@@ -8,5 +8,6 @@
   ],
   "useMarkdownLinks": true,
   "newLinkFormat": "absolute",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true
 }

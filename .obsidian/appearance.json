@@ -1,7 +1,9 @@
 {
-  "accentColor": "",
-  "theme": "system",
+  "accentColor": "#0b9009",
+  "theme": "moonstone",
   "enabledCssSnippets": [
     "obsidian"
-  ]
+  ],
+  "translucency": false,
+  "cssTheme": "Minimal"
 }

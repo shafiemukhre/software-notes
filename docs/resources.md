@@ -1,7 +1,5 @@
 # Resources
 
-Will try to add good resources that I just found or good resources that I have used multiple times here.
-
 ## Frontend
 
 ### React
@@ -16,3 +14,6 @@ Will try to add good resources that I just found or good resources that I have u
 
 ## Deploy to production
 - [flightcontrol.dev](https://www.flightcontrol.dev) - seems like a good option if I need to deploy a server to AWS with better DX
+
+## Desktop app dev
+- [tauri.app](https://tauri.app/) - an alternative of electron built on rust

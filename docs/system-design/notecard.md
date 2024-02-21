@@ -17,7 +17,7 @@ If you have a scalability problem, your system is fast for a single user but slo
 
 ### Latency vs throughput
 
-atency is the time to perform some action or to produce some result.
+Latency is the time to perform some action or to produce some result.
 
 Throughput is the number of such actions or results per unit of time.
 
