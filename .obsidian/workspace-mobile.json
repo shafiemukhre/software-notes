@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "trying stuff.md",
+                "file": "docs/Tips.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "trying stuff.md",
+            "file": "docs/Tips.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "trying stuff.md",
+            "file": "docs/Tips.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "trying stuff.md"
+            "file": "docs/Tips.md"
           }
         }
       }
@@ -153,48 +153,50 @@
   },
   "active": "bbb74679c75b4b1b",
   "lastOpenFiles": [
+    "blog/using-obsidian-for-blogging.md",
+    "assets/img/Pasted-image-20240217132012.png",
+    "trying stuff.md",
+    "blog/2024-02-06.md",
+    "docs/system-design/choosing-database.md",
+    "docs/algorithms",
+    "Excalidraw",
+    "Excalidraw/hello.excalidraw.md",
+    "static/assets",
+    "docs/data-structures",
+    "docs/algorithms/_category_.json",
+    "assets/img",
+    "assets",
+    "docs/data-structures/_category_.json",
+    "static/assets/hello.excalidraw.svg",
+    "docs/ui/_category_.json",
+    "docs/ui/scss.md",
+    "docs/ui",
+    "docs/algorithms/Graph.md",
+    "/to-learn-masterlist.md",
+    "/static/assets/hello.excalidraw.svg",
+    "/docs/ui/scss.md",
+    "/docs/system-design/notecard.md",
+    "/docs/system-design/choosing-database.md",
+    "/docs/resources.md",
+    "/docs/algorithms/Graph.md",
+    "/docs/Tips.md",
+    "/blog/using-obsidian-for-blogging.md",
+    "/blog/2024-02-06.md",
+    "/assets/img/Pasted-image-20240217132012.png",
+    "/Excalidraw/hello.excalidraw.md",
+    "blog/late night thoughts.md",
+    "blog/Obsidian + Docusaurus.md",
+    "docs/styling/scss.md",
     "docs/system-design/cap-theorem.md",
     "docs/system-design/add-json-into-sql-database.md",
     "docs/system-design-problems/rate-limiter.md",
     "docs/Home.md",
     "docs/resources.md",
-    "blog/Obsidian + Docusaurus.md",
-    "blog/late night thoughts.md",
-    "blog/2024-02-06.md",
-    "trying stuff.md",
-    "Untitled.md",
     "docs/react/img/image2.png",
-    "docs/styling/scss.md",
-    "README.md",
-    "2024-02-17.md",
-    "to-learn-masterlist.md",
-    "Untitled",
-    "babel.config.js",
-    "src/css",
-    "src",
-    "docusaurus.config.ts",
-    "tsconfig.json",
-    "src/css/custom.css",
     "static/img/logo.svg",
     "static/img/undraw_docusaurus_tree.svg",
     "static/img/docusaurus.png",
     "static/img/undraw_docusaurus_react.svg",
-    "static/img/undraw_docusaurus_mountain.svg",
-    "static/img",
-    "static",
-    "src/components/HomepageFeatures/styles.module.css",
-    "docs/react/handle-click-outside-of-element.md",
-    "docs/react/data-fetching-with-useeffect.md",
-    "docs/Tips.md",
-    "docs/react/zustand.md",
-    "docs/react/absolute-path-in-vite.md",
-    "docs/system-design/patch-post-put.md",
-    "docs/system-design/notecard.md",
-    "docs/system-design/sql-vs-nosql.md",
-    "docs/system-design/database-migration.md",
-    "static/img/docusaurus-social-card.jpg",
-    "docs/react/img/image.png",
-    "src/pages/markdown-page.md",
-    "docs/react/typescript-for-react.md"
+    "static/img/undraw_docusaurus_mountain.svg"
   ]
 }
