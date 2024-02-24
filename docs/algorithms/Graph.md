@@ -107,12 +107,63 @@ class Solution:
 
 ## Union Find
 
-The name of the algorithm is "Union Find" because there are 2 functions that form this algorithm. 
-- `union()` function is unionizing multiple nodes — connecting 2 nodes based on a given edge.
-- The `find()` function is to find the root parent. If the parent for 2 nodes is the same, then it means these 2 nodes are connected since both have the same parent. In other words, the find function is to find the node belonging to which set, if 2 nodes belong to the same set it means it is connected.
+> A disjoint-set data structure, also called a union–find data structure or merge–find set, is a data structure that stores a collection of disjoint (non-overlapping) sets. Equivalently, it stores a partition of a set into disjoint subsets. It provides operations for adding new sets, merging sets (replacing them by their union), and finding a representative member of a set. It implements two useful operations:
+
+> 1. `Find`: Determine which subset a particular element is in. This can be used to determine if two elements are in the same subset aka a 'connected component'. Also, to find root parent.
+> 2. `Union`: Join two subsets into a single subset. Connecting 2 nodes based on a given edge.
 
 Some intuition
 
 - A tree is 1 connected component, if you add 1 extra edge, there will be a cycle. For example, if there are $n$ nodes in the tree and there are $n$ unique edges, there's a cycle for sure.
 - path compression: assign the grandparent to be a new parent.
-- use rank for "path comparison". 
+- use rank for "path comparison".
+
+```python
+class UnionFind(object):
+    def init (self, n) :
+        self.parents = list(range(n))
+        self.sizes = [1] * n
+
+    def find(self, i):
+        # option 1: using recursion
+        While i != self.parents[i]:
+            # path compression, have i points to the cluster centroid
+            self.parents[i] = self.find(self.parents[i])
+            i = self.parents[i]
+            return i
+        # # option 2: not using recursion?
+        # root = i
+        # while self.parents [root] != root:
+        #     root = self.parents[root]
+        # while self.parents[i] != root:
+        #     parent = self.parents[i]
+        #     self.parents[i] = root
+        #     i = parent
+        # return root
+
+    def union (self, p, q):
+        root_p, root_q = map(self.find, (p, q))
+        if root_p == root_q: return
+        small, big = sorted([root_p, root_q], key=lambda x: self.sizes[x])
+        self .parents[small] = big
+        self.sizes[big] += self.sizes[small]
+```
+
+## Topological Sort
+
+- Problems: Course Schedule 1 & 2, Alien Dictionary
+- Khan's Algorithm -> uses the in-degree technique.
+- Topological sort -> DFS with visited set and a stack. Make sure to have recursion_check set as well to detect the cycle.
+
+## Tips and Tricks
+
+- If the input graph has weight, use `defaultdict(dict)`.
+- if the input graph doesn't have weight, use `defaultdict(set)`.
+- If nodes are unique, you can use `defaultdict(set)`, the nodes are not unique make sure to use `defaultdict(list)`.
+- The membership test for the element in a `set` is $O(1)$ which is better than in a `list` with $O(n)$. Regardless, you will need to do a for loop anyway to visit all neighbors, so you can do a membership test here in the for loop.
+- Be very comfortable with BFS, BFS usually has better space complexity. Use BFS if you can tell that BFS is more optimized, though DFS sometimes are more intuitive. No point spending 30+ minutes in an interview trying to get your DFS to work when it's not even the most optimized solution.
+- There are 2 ways to backtrack in recursive DFS when traversing to neighbor nodes. Either create a temp variable to be into the next DFS function and backtrack it to the previous value, or pass in the variable with its operation into the DFS function directly e.g. `dfs(next_currency, target_currency, product * rate)`.
+
+Resources:
+
+- Study this: https://leetcode.com/discuss/general-discussion/971272/Python-Graph-Algorithms-One-Place-for-quick-revision

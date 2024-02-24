@@ -17,3 +17,6 @@
 
 ## Desktop app dev
 - [tauri.app](https://tauri.app/) - an alternative of electron built on rust
+
+## Leetcode
+- https://www.youtube.com/@codeyao9796/videos 

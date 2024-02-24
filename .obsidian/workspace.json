@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "68b5e5f0667bb244",
+        "id": "1fc34dc9af6a49b0",
         "type": "tabs",
         "children": [
           {
-            "id": "4e61ef36203d613a",
+            "id": "27e0b58fd9f9c2df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/algorithms/Graph.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/algorithms/Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/algorithms/Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/algorithms/Graph.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,13 +140,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4e61ef36203d613a",
+  "active": "27e0b58fd9f9c2df",
   "lastOpenFiles": [
+    "to-learn-masterlist.md",
+    "trying stuff.md",
+    "docs/algorithms/Graph.md",
+    "docs/algorithms/general-notes.md",
+    "static/assets/Screenshot 2024-02-22 at 12.27.19 AM.png",
+    "docs/resources.md",
+    "README.md",
     "docs/system-design/choosing-database.md",
     "docs/data-structures/Disjointed Set Union.md",
     "docs/system-design/sql-vs-nosql.md",
     "docs/system-design/patch-post-put.md",
-    "docs/algorithms/Graph.md",
     "docs/react/data-fetching-with-useeffect.md",
     "docs/react/handle-click-outside-of-element.md",
     "docs/ui/scss.md",
@@ -167,7 +165,6 @@
     "blog/using-obsidian-for-blogging.md",
     "blog/2024-02-06.md",
     "docs/Tips.md",
-    "docs/resources.md",
     "static/assets/hello.excalidraw.svg",
     "Excalidraw/hello.excalidraw.md",
     "static/assets",
@@ -185,12 +182,7 @@
     "docs/system-design/cap-theorem.md",
     "docs/system-design/add-json-into-sql-database.md",
     "docs/system-design-problems/rate-limiter.md",
-    "docs/system-design/notecard.md",
-    "docs/system-design/database-migration.md",
     "docs/react/img/image.png",
-    "Pasted image 20240217131842.png",
-    "README.md",
-    "to-learn-masterlist.md",
-    "blog/late night thoughts.md"
+    "Pasted image 20240217131842.png"
   ]
 }
