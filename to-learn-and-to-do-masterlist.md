@@ -1,8 +1,13 @@
+## General
+- Notes should have lots of bullet points, tables, diagrams, and examples.
+- Add "tips" call-outs on how to memorize the section when you can.
+
 ## Frontend
 
 - [] use storybook. see [this storybook example for react-spreadsheet](https://iddan.github.io/react-spreadsheet/storybook/?path=/story/spreadsheet--basic)
 - [] check styleX
 - [] write note for scss https://www.youtube.com/watch?v=kFA-ZJ9KTqs
+- [ ] blender, react-three-fiber + react-three-rapier (the physics engine)
 
 ## Database modelling
 
@@ -19,8 +24,8 @@ Do overlap problems from System Design Interview book by Alex Xu and and [Grokki
 Steps: 1. Clarify/understand the problem + list function vs non-function requirement + BotE estimation -> 2. High-Level Design -> 3. Design dive deep -> Wrap up and review.
 
 Advanced Design Problem
-- [ ] Design a URL shortener
-- [ ] Design a web crawler
+- [ ] Design a URL shortener - reviewed
+- [ ] Design a web crawler - reviewed
 - [ ] Design a news feed system
 - [ ] Design Youtube
 - [ ] Design Google Drive
@@ -48,7 +53,15 @@ review 75 leetcode (5 mins for each question) on Saturday and 75 neetcode on Sun
 do a few low-level design problems on Monday - Wednesday.
 Review Neetcode and do amazon tags problem Monday - Wednesday.
 
+- Load balancer
+	- active-active load balancer=
+- different caching pattern: write-back cache
+	- eviction policy, expiration policy, consistency requirements
+- crdt - eventual consistency
+- multileader/leaderless vs single leader?
+
 
 ## Algorithm
 
 - When creating a note, remember to do it like this: https://ryanzhang.info/ctci/topics/python.html and this https://ryanzhang.info/machine_learning/nlp.html, one-page note but long. The goal is to keep on adding new information but as time goes on, keep on rewriting and make sure only the most important notes are there. Expand and shrink it. 
+* [Leetcode Discuss: Edge cases to consider during problem solving](https://leetcode.com/discuss/general-discussion/988504/Edge-cases-to-consider-during-problem-solving)

@@ -41,5 +41,3 @@ This approach is seen in systems such as DNS and email. Eventual consistency wor
 After a write, reads will see it. Data is replicated synchronously.
 
 This approach is seen in file systems and RDBMSes. Strong consistency works well in systems that need transactions.
-
-### Availability patterns
