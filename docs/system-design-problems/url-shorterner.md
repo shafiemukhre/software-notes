@@ -1,6 +1,8 @@
 ---
 draft: "true"
+sidebar_position: 70
 ---
+
 # Design a URL Shortener
 
 ## Skeleton Summary
@@ -18,13 +20,11 @@ Functional Requirements: Generate short URL, redirect short URL, custom short li
 
 Non-functional requirements: Highly available system, horizontally scalable, low latency smooth experience, unpredictable short URL, and (optionally) readable/distinguishable short link.
 
-
-
 Back-of-the-envelope estimation
-- 10m URLs per day -> 10m  / 24 / 3600 = 116 write operation per second
-- 1:100 write:read ratio -> 116 x 100 = 100k read operation per second
-- 
 
+- 10m URLs per day -> 10m / 24 / 3600 = 116 write operation per second
+- 1:100 write:read ratio -> 116 x 100 = 100k read operation per second
+-
 
 | header 1 |     |
 | -------- | --- |

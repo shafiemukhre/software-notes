@@ -130,7 +130,7 @@ class UnionFind(object):
             # path compression, have i points to the cluster centroid
             self.parents[i] = self.find(self.parents[i])
             i = self.parents[i]
-            return i
+        return i
         # # option 2: not using recursion?
         # root = i
         # while self.parents [root] != root:

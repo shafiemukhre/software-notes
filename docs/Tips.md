@@ -4,6 +4,10 @@
 
 - When watching videos on YouTube on tutorials or technical topics, I like to set the default speed to 1.5x and then right-click press & hold on the video to change it to 2x speed temporarily.
 - Install [shottr.css](https://shottr.cc/) on your Mac, and use `ctrl` + `opt` + `cmd` + `o` to copy the text on your screen to the clipboard using OCR. Sometimes, YouTube videos don't upload the code, so this can help from time to time.
+- Use [space repetition](https://www.freecodecamp.org/news/use-spaced-repetition-with-anki-to-learn-to-code-faster-7c334d448c3c/) and [active recall](https://www.coursera.org/learn/learning-how-to-learn?action=enroll) for learning. a
+- A good framework for learning is to understand _why_ something was invented to truly understand _what_ it does. You can understand things properly only when you know _why_ they exist - knowing _what_ they do is not enough.
+	- Why, what, example.
+- 
 
 ## Writing
 - Most people learn things and forget the why behind them. Try to write "why?" and add memorization tips as well.

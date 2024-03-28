@@ -20,3 +20,14 @@
 
 ## Leetcode
 - https://www.youtube.com/@codeyao9796/videos 
+
+**System Design**
+- [BeABetterDev](https://www.youtube.com/@BeABetterDev) - good for system design and hands-on AWS
+- [@IGotAnOffer-Engineering](https://www.youtube.com/@IGotAnOffer-Engineering) - good system design mock interviews
+- [techprep.app](https://www.techprep.app/) and [@TechPrepYT](https://www.youtube.com/@TechPrepYT)- potentially a good resource
+
+**Coding practice**
+- [@CodeAesthetic](https://www.youtube.com/@CodeAesthetic)-  teaching you coding best practice visually
+
+## ML and AI
+- [@GPTandChill](https://www.youtube.com/@GPTandChill) - good explanation of LLM's fundamentals.

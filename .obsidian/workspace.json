@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3d333d1078d539e4",
+        "id": "b2405aa6f8722207",
         "type": "tabs",
         "children": [
           {
-            "id": "707968debd1a8544",
+            "id": "4c9ddc19439114e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/algorithms/other.md",
+                "file": "docs/algorithms/Graph.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/algorithms/other.md",
+                "file": "docs/algorithms/Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/algorithms/other.md",
+                "file": "docs/algorithms/Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/algorithms/other.md"
+                "file": "docs/algorithms/Graph.md"
               }
             }
           }
@@ -148,39 +148,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "707968debd1a8544",
+  "active": "4c9ddc19439114e6",
   "lastOpenFiles": [
-    "docs/algorithms/Graph.md",
-    "docs/algorithms/other.md",
-    "docs/algorithms/img/reverse-bucket-sort.png",
-    "Excalidraw/product-array-except-self.excalidraw",
-    "docs/algorithms/img/product-array-except-self.png",
-    "scale1.excalidraw",
-    "Excalidraw/product-array-except-self.excalidraw.crswap",
-    "docs/algorithms/sort.md",
+    "docs/algorithms/array-and-string.md",
+    "docs/react/absolute-path-in-vite.md",
+    "docs/react/data-fetching-with-useeffect.md",
+    "docs/react/handle-click-outside-of-element.md",
+    "docs/react/tips-and-tricks.md",
+    "docs/react/typescript-for-react.md",
     "to-learn-and-to-do-masterlist.md",
+    "docs/resources.md",
+    "docs/Tips.md",
+    "docs/algorithms/Graph.md",
+    "notes.md",
+    "docs/backend/dependency-injection.md",
+    "docs/backend/img",
+    "docs/backend/img/example of dependency injection architecture by CodeAesthetic.png",
+    "docs/backend",
+    "Excalidraw/product-array-except-self.excalidraw",
+    "Excalidraw/scale.excalidraw",
+    "Excalidraw/build.excalidraw",
+    "Excalidraw/hello.excalidraw.md",
+    "docs/system-design-problems/rate-limiter.md",
+    "docs/system-design-problems/start.md",
+    "docs/Home.md",
+    "Excalidraw/build.excalidraw.crswap",
+    "Excalidraw/temp.excalidraw.md",
+    "docs/system-design-problems/scale.md",
+    "docs/system-design-problems/notification.md",
+    "docs/system-design-problems/url-shorterner.md",
+    "docs/system-design-problems/chat.md",
+    "scale1.excalidraw",
+    "docs/algorithms/other.md",
+    "docs/algorithms/sort.md",
+    "docs/algorithms/img/reverse-bucket-sort.png",
+    "docs/algorithms/img/product-array-except-self.png",
+    "Excalidraw/product-array-except-self.excalidraw.crswap",
     "docs/algorithms/img",
     "docs/react/zustand.md",
-    "docs/react/typescript-for-react.md",
-    "docs/react/handle-click-outside-of-element.md",
-    "docs/react/data-fetching-with-useeffect.md",
-    "docs/react/absolute-path-in-vite.md",
     "docs/system-design/add-json-into-sql-database.md",
-    "docs/system-design-problems/scale.md",
-    "docs/system-design-problems/intro.md",
-    "docs/system-design-problems/chat.md",
-    "docs/system-design-problems/notification.md",
-    "docs/system-design-problems/rate-limiter.md",
-    "docs/system-design-problems/url-shorterner.md",
     "docs/system-design-problems/web-crawler.md",
-    "docs/system-design/sql-vs-nosql.md",
-    "docs/system-design/patch-post-put.md",
-    "docs/system-design/notecard.md",
-    "docs/system-design/database-migration.md",
-    "docs/system-design/choosing-database.md",
-    "docs/system-design/cap-theorem.md",
-    "docs/algorithms/general-notes.md",
-    "docs/Talks/scaling-on-aws.md",
     "docs/Talks/img/Pasted image 20240229160636.png",
     "docs/Talks/img/Pasted image 20240229155810.png",
     "docs/Talks/img/Pasted image 20240229155737.png",
@@ -188,12 +195,6 @@
     "docs/Talks/img/Pasted image 20240229154951.png",
     "docs/Talks/img/Pasted image 20240229154735.png",
     "docs/Talks/img/Pasted image 20240229154709.png",
-    "docs/Talks/img/Pasted image 20240229153915.png",
-    "docs/Talks/img",
-    "docs/Talks",
-    "docs/system-design-problems/img",
-    "docs/ui/_category_.json",
-    "docs/ui",
-    "docs/data-structures/_category_.json"
+    "docs/Talks/img"
   ]
 }

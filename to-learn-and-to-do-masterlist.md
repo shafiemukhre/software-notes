@@ -8,6 +8,12 @@
 - [] check styleX
 - [] write note for scss https://www.youtube.com/watch?v=kFA-ZJ9KTqs
 - [ ] blender, react-three-fiber + react-three-rapier (the physics engine)
+- [ ] write some notes on ARIA
+	- https://www.youtube.com/watch?v=i7lU6v_RejM
+	- https://developer.mozilla.org/en-US/docs/Web/Accessibility
+	- https://web.dev/learn/accessibility
+- [7 Ways to Implement Conditional Rendering in React Applications](https://www.digitalocean.com/community/tutorials/7-ways-to-implement-conditional-rendering-in-react-applications)
+
 
 ## Database modelling
 
@@ -40,9 +46,11 @@ Elementary design Problem
 - [ ] Design a key-value store - compare with a key-value store for search engine (from Primer)
 - [ ] Design a unique ID generator in a distributed system
 
-? - should do this as well, since these are from Alex Xu's book
+? - Should do this as well, since these are from Alex Xu's book
 - [ ] Design a notification system
 - [ ] Design a search autocomplete system
+
+
 
 15 problems :/ -> 5 on Saturday, 5 on Sunday, 5 on Monday
 review 75 leetcode (5 mins for each question) on Saturday and 75 neetcode on Sunday.
@@ -60,8 +68,32 @@ Review Neetcode and do amazon tags problem Monday - Wednesday.
 - crdt - eventual consistency
 - multileader/leaderless vs single leader?
 
+Sources:
+* [Arpit's System design Masterclass](https://www.youtube.com/watch?v=1r9bPisYaOQ&list=PLsdq-3Z1EPT36NJXTutvKcreetuHCr9a-)
+* [AWS Learning Accelerator course](https://courses.beabetterdev.com/courses/aws-learning-accelerator) - seems like a good project to learn AWS serverless.
+
 
 ## Algorithm
 
 - When creating a note, remember to do it like this: https://ryanzhang.info/ctci/topics/python.html and this https://ryanzhang.info/machine_learning/nlp.html, one-page note but long. The goal is to keep on adding new information but as time goes on, keep on rewriting and make sure only the most important notes are there. Expand and shrink it. 
-* [Leetcode Discuss: Edge cases to consider during problem solving](https://leetcode.com/discuss/general-discussion/988504/Edge-cases-to-consider-during-problem-solving)
+* [ ] Create a note on this: [Leetcode Discuss: Edge cases to consider during problem solving](https://leetcode.com/discuss/general-discussion/988504/Edge-cases-to-consider-during-problem-solving)
+- [ ] Learn enum for LLC object-oriented problems
+- [ ] This hashing explanation is pretty good: https://www.youtube.com/watch?v=4YiQITXu_iM
+
+
+For quick revision, do all leetcode problems from these list to cover all possible algorithms
+* Graph patterns: https://leetcode.com/discuss/general-discussion/971272/Python-Graph-Algorithms-One-Place-for-quick-revision
+	* with explanation: https://leetcode.com/discuss/interview-question/4283222/Graph-(Beginners-to-Advanced)-All-Algorithms-Python
+* DP patterns: [https://leetcode.com/discuss/general-discussion/972402/Python-template-for-DP-patterns-One-Place-for-quick-revision](https://leetcode.com/discuss/general-discussion/972402/Python-template-for-DP-patterns-One-Place-for-quick-revision)  
+* Tree: [https://leetcode.com/discuss/general-discussion/1019622/Python-template-Tree-questions-in-One-Place-for-quick-revision](https://leetcode.com/discuss/general-discussion/1019622/Python-template-Tree-questions-in-One-Place-for-quick-revision)  
+* EDGE case: [https://leetcode.com/discuss/general-discussion/988504/Edge-cases-to-consider-during-problem-solving](https://leetcode.com/discuss/general-discussion/988504/Edge-cases-to-consider-during-problem-solving)
+* Few Object Oriented Programming (low-level system design) problems.
+
+DP
+- [Must do Dynamic Programming Problems Category Wise](https://leetcode.com/company/amazon/discuss/4676022/Must-do-Dynamic-Programming-Problems-Category-Wise)
+- [Solved all dynamic programming (dp) problems in 7 months](https://leetcode.com/discuss/general-discussion/1000929/solved-all-dynamic-programming-dp-problems-in-7-months)
+- 
+
+## Leadership Principle
+- [Amazon LPs Compiled](https://leetcode.com/discuss/interview-experience/1149636/Amazon-LPs-Compiled)
+- 
