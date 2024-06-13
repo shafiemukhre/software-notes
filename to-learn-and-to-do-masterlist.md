@@ -80,11 +80,13 @@ Sources:
 - [ ] Learn enum for LLC object-oriented problems
 - [ ] This hashing explanation is pretty good: https://www.youtube.com/watch?v=4YiQITXu_iM
 
+- Some problems require TreeMap data structure which is available in Java. Python doesn't have this, bisect is what is normally being used. This is implementation of bisect: https://github.com/python/cpython/blob/3.9/Lib/bisect.py
+- 
 
 For quick revision, do all leetcode problems from these list to cover all possible algorithms
 * Graph patterns: https://leetcode.com/discuss/general-discussion/971272/Python-Graph-Algorithms-One-Place-for-quick-revision
 	* with explanation: https://leetcode.com/discuss/interview-question/4283222/Graph-(Beginners-to-Advanced)-All-Algorithms-Python
-* DP patterns: [https://leetcode.com/discuss/general-discussion/972402/Python-template-for-DP-patterns-One-Place-for-quick-revision](https://leetcode.com/discuss/general-discussion/972402/Python-template-for-DP-patterns-One-Place-for-quick-revision)  
+* DP patterns: [https://leetcode.com/discuss/general-discussion/972402/Python-template-for-DP-patterns-One-Place-for-quick-revision](https://leetcode.com/discuss/general-discussion/972402/Python-template-for-DP-patterns-One-Place-for-quick-revision) , https://leetcode.com/discuss/study-guide/4988261/dynamic-programming-patterns
 * Tree: [https://leetcode.com/discuss/general-discussion/1019622/Python-template-Tree-questions-in-One-Place-for-quick-revision](https://leetcode.com/discuss/general-discussion/1019622/Python-template-Tree-questions-in-One-Place-for-quick-revision)  
 * EDGE case: [https://leetcode.com/discuss/general-discussion/988504/Edge-cases-to-consider-during-problem-solving](https://leetcode.com/discuss/general-discussion/988504/Edge-cases-to-consider-during-problem-solving)
 * Few Object Oriented Programming (low-level system design) problems.

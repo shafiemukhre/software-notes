@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b2405aa6f8722207",
+        "id": "685773a95bac2afb",
         "type": "tabs",
         "children": [
           {
-            "id": "4c9ddc19439114e6",
+            "id": "d1344f4030eeeb82",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/algorithms/Graph.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/algorithms/Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/algorithms/Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/algorithms/Graph.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,53 +140,52 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4c9ddc19439114e6",
+  "active": "d1344f4030eeeb82",
   "lastOpenFiles": [
+    "to-learn-and-to-do-masterlist.md",
+    "docs/system-design/patch-post-put.md",
+    "Excalidraw/scale.excalidraw",
+    "docs/system-design-problems/img/temp.png",
+    "docs/system-design-problems/start.md",
+    "docs/system-design-problems/scale.md",
+    "docs/system-design-problems/chat.md",
+    "docs/system-design/sql-vs-nosql.md",
+    "docs/system-design/database-migration.md",
+    "docs/system-design/choosing-database.md",
+    "docs/system-design/add-json-into-sql-database.md",
+    "Excalidraw/hello.excalidraw.md",
+    "docs/algorithms/Graph.md",
+    "scale1.excalidraw",
+    "docs/resources.md",
+    "README.md",
+    "docs/Tutorials/refine-admin-dashboard.md",
+    "docs/Tutorials/img",
+    "docs/Tutorials/img/Pasted image 20240407171812.png",
+    "docs/Tutorials",
+    "notes.md",
     "docs/algorithms/array-and-string.md",
     "docs/react/absolute-path-in-vite.md",
     "docs/react/data-fetching-with-useeffect.md",
     "docs/react/handle-click-outside-of-element.md",
     "docs/react/tips-and-tricks.md",
     "docs/react/typescript-for-react.md",
-    "to-learn-and-to-do-masterlist.md",
-    "docs/resources.md",
     "docs/Tips.md",
-    "docs/algorithms/Graph.md",
-    "notes.md",
     "docs/backend/dependency-injection.md",
     "docs/backend/img",
     "docs/backend/img/example of dependency injection architecture by CodeAesthetic.png",
     "docs/backend",
     "Excalidraw/product-array-except-self.excalidraw",
-    "Excalidraw/scale.excalidraw",
     "Excalidraw/build.excalidraw",
-    "Excalidraw/hello.excalidraw.md",
     "docs/system-design-problems/rate-limiter.md",
-    "docs/system-design-problems/start.md",
     "docs/Home.md",
     "Excalidraw/build.excalidraw.crswap",
-    "Excalidraw/temp.excalidraw.md",
-    "docs/system-design-problems/scale.md",
-    "docs/system-design-problems/notification.md",
-    "docs/system-design-problems/url-shorterner.md",
-    "docs/system-design-problems/chat.md",
-    "scale1.excalidraw",
-    "docs/algorithms/other.md",
-    "docs/algorithms/sort.md",
     "docs/algorithms/img/reverse-bucket-sort.png",
     "docs/algorithms/img/product-array-except-self.png",
     "Excalidraw/product-array-except-self.excalidraw.crswap",
-    "docs/algorithms/img",
-    "docs/react/zustand.md",
-    "docs/system-design/add-json-into-sql-database.md",
-    "docs/system-design-problems/web-crawler.md",
     "docs/Talks/img/Pasted image 20240229160636.png",
     "docs/Talks/img/Pasted image 20240229155810.png",
     "docs/Talks/img/Pasted image 20240229155737.png",
     "docs/Talks/img/Pasted image 20240229155420.png",
-    "docs/Talks/img/Pasted image 20240229154951.png",
-    "docs/Talks/img/Pasted image 20240229154735.png",
-    "docs/Talks/img/Pasted image 20240229154709.png",
-    "docs/Talks/img"
+    "docs/Talks/img/Pasted image 20240229154951.png"
   ]
 }

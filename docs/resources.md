@@ -8,9 +8,11 @@
 - [@joshtriedcoding](https://www.youtube.com/@joshtriedcoding) - Good to keep up with latest frontend tech and best practice
 - [@ByteGrad](https://www.youtube.com/@ByteGrad) - Good coding style for writing react code
 - [@cosdensolutions](https://www.youtube.com/@cosdensolutions) - There are several good ~20 mins video complete tutorial for react
-- [@elliottchong](https://www.youtube.com/@elliottchong) - Multiple full-length videos on building fullstack AI-powered react apps
 - [React roadmap by Cosden](https://github.com/cosdensolutions/code/blob/master/videos/long/react-developer-roadmap-2024/roadmap.md) - Good roadmap for 2024. I can use this to structure software notes for React
 - [React Query series by @TkDodo (Dominik) ](https://tkdodo.eu/blog/practical-react-query) - Good blog series on Tanstack Query (previously React Query)
+- Project-based tutorials
+	- [@javascriptmastery](https://www.youtube.com/@javascriptmastery) - Probably the best, check this [playlist](https://www.youtube.com/watch?v=oKIThIihv60&list=PL6QREj8te1P6wX9m5KnicnDVEucbOPsqR&index=1)
+	  - [@elliottchong](https://www.youtube.com/@elliottchong) - Multiple full-length videos on building fullstack AI-powered react apps
 
 ## Deploy to production
 - [flightcontrol.dev](https://www.flightcontrol.dev) - seems like a good option if I need to deploy a server to AWS with better DX

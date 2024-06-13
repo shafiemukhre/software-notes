@@ -105,6 +105,8 @@ class Solution:
 
 ### BFS (iterative) template
 
+## Cycle in Directed Graph
+
 ## Union Find
 
 > A disjoint-set data structure, also called a union–find data structure or merge–find set, is a data structure that stores a collection of disjoint (non-overlapping) sets. Equivalently, it stores a partition of a set into disjoint subsets. It provides operations for adding new sets, merging sets (replacing them by their union), and finding a representative member of a set. It implements two useful operations:
@@ -126,7 +128,7 @@ class UnionFind(object):
 
     def find(self, i):
         # option 1: using recursion
-        While i != self.parents[i]:
+        while i != self.parents[i]:
             # path compression, have i points to the cluster centroid
             self.parents[i] = self.find(self.parents[i])
             i = self.parents[i]
@@ -142,7 +144,7 @@ class UnionFind(object):
         # return root
 
     def union (self, p, q):
-        root_p, root_q = map(self.find, (p, q))
+        root_p, root_q = self.find(p), self.find(q)
         if root_p == root_q: return
         small, big = sorted([root_p, root_q], key=lambda x: self.sizes[x])
         self .parents[small] = big
