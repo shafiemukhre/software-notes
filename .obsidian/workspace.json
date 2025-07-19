@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "685773a95bac2afb",
+        "id": "04f918a189b0433d",
         "type": "tabs",
         "children": [
           {
-            "id": "d1344f4030eeeb82",
+            "id": "de22becc0ae887b0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -114,7 +114,7 @@
             }
           },
           {
-            "id": "781d817e6c3bb5e0",
+            "id": "57fd87d690e959bb",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -122,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -140,8 +140,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d1344f4030eeeb82",
+  "active": "de22becc0ae887b0",
   "lastOpenFiles": [
+    "notes.md",
+    "docs/resources.md",
+    "docs/Tips.md",
+    "docs/algorithms/array-and-string.md",
+    "Excalidraw/hello.excalidraw.md",
     "to-learn-and-to-do-masterlist.md",
     "docs/system-design/patch-post-put.md",
     "Excalidraw/scale.excalidraw",
@@ -153,23 +158,18 @@
     "docs/system-design/database-migration.md",
     "docs/system-design/choosing-database.md",
     "docs/system-design/add-json-into-sql-database.md",
-    "Excalidraw/hello.excalidraw.md",
     "docs/algorithms/Graph.md",
     "scale1.excalidraw",
-    "docs/resources.md",
     "README.md",
     "docs/Tutorials/refine-admin-dashboard.md",
     "docs/Tutorials/img",
     "docs/Tutorials/img/Pasted image 20240407171812.png",
     "docs/Tutorials",
-    "notes.md",
-    "docs/algorithms/array-and-string.md",
     "docs/react/absolute-path-in-vite.md",
     "docs/react/data-fetching-with-useeffect.md",
     "docs/react/handle-click-outside-of-element.md",
     "docs/react/tips-and-tricks.md",
     "docs/react/typescript-for-react.md",
-    "docs/Tips.md",
     "docs/backend/dependency-injection.md",
     "docs/backend/img",
     "docs/backend/img/example of dependency injection architecture by CodeAesthetic.png",
@@ -177,7 +177,6 @@
     "Excalidraw/product-array-except-self.excalidraw",
     "Excalidraw/build.excalidraw",
     "docs/system-design-problems/rate-limiter.md",
-    "docs/Home.md",
     "Excalidraw/build.excalidraw.crswap",
     "docs/algorithms/img/reverse-bucket-sort.png",
     "docs/algorithms/img/product-array-except-self.png",
